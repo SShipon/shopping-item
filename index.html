@@ -5,18 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>product</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 </head>
-<body>
-    <h1>sopping-Input</h1>
-    <input type="text" id="product-name">
-    <button onclick="addProduct()">add-product</button>
-    <br>
-    <ul id="products">
+<body >
+ 
+<!-- <section>
+    <div class="container my-5" >
+        <h1>Now <span class="text-info">sopping</span> -order</h1>
+        <input type="text" id="product-name">
+        <button onclick="addProduct()">add-product</button>
+        <br>
+        <ul id="products">
+        </ul>
+       <button class="rounded" id="placeOrder" onclick="placeOrder()">place order</button>
+    </div> 
+</section> -->
 
-    </ul>
-    <br>
-    <br>
-   <button onclick="placeOrder()">place order</button>
-   <script src="home.js"></script>
+<section class="container-fluid">
+    <section class="row justify-content-center">
+      <section class="col-6 col-sm-6 col-md-3 my-5">
+        <h1>Now <span class="text-info">sopping</span> -order</h1>
+        <input type="text" id="product-name">
+        <button onclick="addProduct()">add-product</button>
+        <br>
+        <ul id="products">
+        </ul>
+       <button class="rounded" id="placeOrder" onclick="placeOrder()"> Order Now</button>
+      </section>
+
+    </section>
+
+  </section>
+
+
+
+
+<script src="home.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 </body>
 </html>
